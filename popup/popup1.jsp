@@ -11,6 +11,8 @@
             <br><br> 
             홈페이지 메인 화면 로딩 후 자동으로 열립니다.
             </h4>
+               <jsp:forward page="popup2.jsp" />
+
         </body>
     </head>
 </html>

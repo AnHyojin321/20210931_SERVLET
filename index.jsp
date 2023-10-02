@@ -1,6 +1,8 @@
 <%@ page contentType = "text/html;charset=utf-8" %>
 <%@ page import="example.*" %> 
 <%@ page import="java.util.Date"%>
+
+
 <%
     HelloWorld h = new HelloWorld();
 %>
@@ -23,7 +25,6 @@
 	<%@ include file="top_menu.jsp" %>
 	<%@ include file="body_main.jsp" %>	
     <%@ include file="footer.jsp" %>
-
 </body>
 </html>
 

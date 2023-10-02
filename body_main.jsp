@@ -18,10 +18,12 @@
   </div>
   </div>
 	<div class="container">
-		<div class="text-center">
-			<h3>
-				<%=tagline%>
-			</h3>
-		</div>
+		<div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">맵슐랭 치킨 </a>
+      <a href="#" class="list-group-item list-group-item-action">후라이드치킨</a>
+      <a href="#" class="list-group-item list-group-item-action">양념치킨</a>
+      <a href="#" class="list-group-item list-group-item-action">간장치킨</a>
+     
+    </div>
 		<hr>
 	</div>
