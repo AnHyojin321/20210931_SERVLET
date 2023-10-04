@@ -1,5 +1,6 @@
-<%@ page contentType = "text/html;charset=utf-8" %>
+<%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page import="example.*" %> 
+<%@ page errorPage = "exception/product_not_found.jsp" %>
 <%@ page import="java.util.Date"%>
 
 
