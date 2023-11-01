@@ -15,7 +15,6 @@
 <title>상품 상세 정보</title>
 </head>
     <body>
-    <%@ include file="top_banner.jsp" %>
     <%@ include file="top_menu_ad.jsp" %>
     <div class="jumbotron">
         <div class="container">
@@ -36,7 +35,7 @@
                 <p><b>상품 코드 : </b><span class="badge badge-danger"> <%=product.getProductId()%></span>
                 <p><b>원산지</b> : <%=product.getManufacturer()%>
                 <p><b>분류</b> : <%=product.getCategory()%>
-                <p><b>재고 수</b> : <%=product.getUnitsInStock()%>
+                <p><b>재고수</b> : <%=product.getUnitsInStock()%>
                 <h4><%=product.getUnitPrice()%>원</h4>
                 
     <div class="card bg-dark text-white">

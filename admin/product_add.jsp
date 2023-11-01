@@ -61,7 +61,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-sm-2">재고 수</label>
+				<label class="col-sm-2">재고수</label>
 				<div class="col-sm-3">
 					<input type="text" id ="unitsInStock" name="unitsInStock" class="form-control" >
 				</div>
@@ -69,9 +69,9 @@
 			<div class="form-group row">
 				<label class="col-sm-2">상태</label>
 				<div class="col-sm-5">
-					<input type="radio" name="condition" value="New " > 신규 제품 
-					<input type="radio" name="condition" value="Old" > 중고 제품 
-					<input type="radio" name="condition" value="Refurbished" > 재생 제품
+					<input type="radio" name="condition" value="New " > 신메뉴 
+					<input type="radio" name="condition" value="Old" > 인기메뉴 
+					
 				</div>
 			</div>
                 
