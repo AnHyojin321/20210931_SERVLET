@@ -60,7 +60,7 @@
                     <p class="card-text">출처 : 구글 검색</p>
                     </div>
                 </div>
-    <p><a href="#" class="btn btn-info"> 상품 주문 &raquo;</a> <a href="index.jsp" class="btn btn-secondary"> 상품 목록 &raquo;</a>
+    <p> <a href="index.jsp" class="btn btn-secondary"> 상품 목록 &raquo;</a>
         </div>
         </div>
         <hr>

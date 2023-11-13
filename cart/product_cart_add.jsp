@@ -1,7 +1,4 @@
-<%@ page contentType = "text/html;charset=utf-8" %>
-<%	
-%>
-<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="dto.Product"%>
 <%@ page import="dao.ProductRepository"%>
