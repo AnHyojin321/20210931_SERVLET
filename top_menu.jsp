@@ -27,6 +27,7 @@
     
 	<div class="container">
 		<div class="navbar-header">
+            <a class="navbar-brand" href="index.jsp">상품목록(기본 홈)</a>
 			<a class="navbar-brand" href="./index.jsp">로그인</a>
             <a class="navbar-brand" href="./index.jsp">자담스토리</a>
             <a class="navbar-brand" href="./index.jsp">커뮤니티</a>
