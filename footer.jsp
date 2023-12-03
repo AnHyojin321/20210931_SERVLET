@@ -10,7 +10,7 @@
     <%
     	ShopTime time = new ShopTime();
          %>    
-        오늘 날짜와 시간 : <%=time.timenow() %>
+        오늘 날짜와 시간  <%=time.timenow() %>
         </p>
     
 

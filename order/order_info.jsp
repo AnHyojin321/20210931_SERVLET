@@ -33,7 +33,10 @@
 	 <div class="form-group row">
 	   <label class="col-sm-2">국가명</label>
 	     <div class="col-sm-3">
-		<input name="country" type="text" class="form-control" />
+		<label><input type="checkbox" name="color" value="한국"> 한국  </label>
+        <label><input type="checkbox" name="color" value="중국"> 중국  </label>
+        <label><input type="checkbox" name="color" value="일본"> 일본  </label>
+        <label><input type="checkbox" name="color" value="미국"> 미국  </label>
 	    </div>
 	 </div>
 	<div class="form-group row">

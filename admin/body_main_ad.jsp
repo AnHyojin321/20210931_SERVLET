@@ -8,7 +8,7 @@
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
 
 	
-<%! String greeting = "자담치킨에 오신걸 환영합니다.";
+<%! String greeting = "관리자모드 전용 페이지입니다.";
 	String tagline = "하단 페이지 : 확인";%>
 
     <div class="container">

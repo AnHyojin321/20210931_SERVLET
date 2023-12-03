@@ -1,20 +1,17 @@
 package example;
-import java.util.Date; // 날짜 관련 정보 얻기
+import java.util.Calendar;
 
 public class ShopTime {
     public String timenow() {
-       Date day = new java.util.Date();
-        String am_pm;
-        int hour = day.getHours(); // 시간
-        int minute = day.getMinutes(); // 분
-        int second = day.getSeconds(); // 초
-        if (hour / 12 == 0) {
-            am_pm = "AM"; // 오전 판단
-        } else {
-            am_pm = "PM"; // 오후 판단
-            hour = hour - 12;
-        }
-        String CT = hour + ":" + minute + ":" + second + " " + am_pm; // 출력 문자열 조합
-        return CT; // 문자열 리턴
+        Calendar calendar = Calendar.getInstance();
+        int hour = calendar.get(Calendar.HOUR_OF_DAY); // 24시간 형식
+        int minute = calendar.get(Calendar.MINUTE);
+        int second = calendar.get(Calendar.SECOND);
+
+        String am_pm = (hour < 12) ? "오전" : "오후";
+        hour = (hour % 12 == 0) ? 12 : hour % 12; // 12시간 형식으로 변경
+
+        String CT = hour + ":" + minute + ":" + second + " " + am_pm;
+        return CT;
     }
 }

@@ -37,7 +37,7 @@
                      <img src="images/product/<%=rs.getString("p_fileName")%>" class="card-img" alt="...">
 
                 </div>
-				<h3><%=rs.getString("p_name")%></h3>
+		<h3><%=rs.getString("p_name")%></h3>
 		<p><%=rs.getString("p_description")%>
 		<p><%=rs.getString("p_unitPrice")%>원
 		<p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
@@ -51,6 +51,7 @@
  		if (conn != null)
 			conn.close();
         %>
+            <img src="images/back.jpg" class="card-img" alt="...">
 	</div>
 
   </div>
