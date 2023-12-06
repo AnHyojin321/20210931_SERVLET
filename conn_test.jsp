@@ -35,7 +35,6 @@ catch(Exception e) {
 }
 conn.close();
 %> 
-
 <%
 	if(conn_state == true){
 %>

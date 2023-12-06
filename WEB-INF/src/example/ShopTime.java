@@ -1,5 +1,5 @@
 package example;
-import java.util.Calendar;
+import java.util.Date; // 날짜 관련 정보 얻기
 
 public class ShopTime {
     public String timenow() {

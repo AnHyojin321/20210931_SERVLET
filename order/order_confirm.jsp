@@ -69,7 +69,7 @@
 	<div>
 		<table class="table table-hover">			
 		<tr>
-			<th class="text-center">도서</th>
+			<th class="text-center">메뉴</th>
 			<th class="text-center">#</th>
 			<th class="text-center">가격</th>
 			<th class="text-center">소계</th>

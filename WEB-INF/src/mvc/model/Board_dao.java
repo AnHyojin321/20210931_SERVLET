@@ -12,7 +12,6 @@ public class Board_dao {
 	private static Board_dao instance;
 	
 	private Board_dao() {
-		
 	}
 
 	public static Board_dao getInstance() {
